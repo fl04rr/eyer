@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Eyer",
+  "version": "1.0.0",
+  "description": "My Chrome Extension",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab"]
+}
