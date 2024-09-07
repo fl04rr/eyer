@@ -20,7 +20,7 @@ export default function Item({ icon, heading, time, exerciseId }: ItemProps) {
           <Icon src={icon.src} alt={icon.alt} />
           <ItemHeading>{heading}</ItemHeading>
         </ItemContainer>
-        <ItemTime>{`${time}s`}</ItemTime>
+        <ItemTime>{time >= 60 ? `${time / 60}m` : `${time}s`}</ItemTime>
       </StyledItem>
     </Link>
   );

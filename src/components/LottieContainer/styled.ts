@@ -5,4 +5,5 @@ export const LottieWrapper = styled.div`
   height: 200%;
   display: grid;
   place-items: center;
+  pointer-events: none;
 `;

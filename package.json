@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp src/background.ts build/background.js",
     "build-extension": "npm run build && mv build extension",
     "start-extension": "web-ext run --source-dir=extension",
     "test": "react-scripts test",

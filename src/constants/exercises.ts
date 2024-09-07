@@ -6,6 +6,7 @@ import MeditationLottie from "../assets/lotties/meditation.json";
 import CombineLottie from "../assets/lotties/combine.json";
 import InfinityLottie from "../assets/lotties/infinity.json";
 import BlinkLottie from "../assets/lotties/blink.json";
+import FocusLottie from "../assets/lotties/focus.json";
 
 export const exercises: Exercise[] = [
   {
@@ -13,13 +14,13 @@ export const exercises: Exercise[] = [
     description:
       "Combine blinking and relaxation to help relieve eye strain and fatigue",
     icon: images.ClosedEye,
-    time: 30,
+    time: 120,
     animation: BlinkLottie,
   },
   {
     heading: "horizontal movement",
     description:
-      "Combine blinking and relaxation to help relieve eye strain and fatigue",
+      "Combine lateral eye movements and deep breathing to alleviate eye strain and enhance focus.",
     icon: images.HorizontalArrows,
     time: 30,
     animation: HorizontalMovementLottie,
@@ -27,26 +28,25 @@ export const exercises: Exercise[] = [
   {
     heading: "Vertical movement",
     description:
-      "Combine blinking and relaxation to help relieve eye strain and fatigue",
+      "Combine vertical eye movements and gentle blinking to refresh vision and reduce fatigue.",
     icon: images.VerticalArrows,
     time: 30,
-
     animation: VerticalMovementLottie,
   },
   {
     heading: "Eight",
     description:
-      "Combine blinking and relaxation to help relieve eye strain and fatigue",
+      "Combine eye movements in a figure-eight pattern to enhance flexibility and relieve strain.",
     icon: images.Infinity,
-    time: 30,
+    time: 60,
     animation: InfinityLottie,
   },
   {
     heading: "Focus",
     description:
-      "Combine blinking and relaxation to help relieve eye strain and fatigue",
+      "Combine focusing on a near object and then a distant one to enhance clarity and relieve strain.",
     icon: images.Focus,
-    time: 30,
-    animation: CombineLottie,
+    time: 180,
+    animation: FocusLottie,
   },
 ];

@@ -15,7 +15,8 @@ export default function SettingsPage() {
   useEffect(() => {
     const fetchMinutes = async () => {
       const { minutes, notification } = await getNotificationPeriod();
-      setNotificationPeriod(minutes);
+      setNotificationPeriod(minutes || 0.1);
+      chrome.storage.sync.set({ minutes: 0.1 });
       setNotificationAllowed(notification);
     };
     fetchMinutes();
