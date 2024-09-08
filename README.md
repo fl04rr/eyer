@@ -1,12 +1,10 @@
-![Eyer logo](docs/images/eye128.png);
+![Eyer logo](docs/images/eye128.png)
 
 # Eyer
 
-## Description
-
 Eyer is a Chrome plugin that offers several eye exercises and sends notifications to remind you to take breaks. It helps reduce eye strain during long hours of computer work.
 
-![Eyer Screenshot](docs/images/screenshot.png);
+![Eyer Screenshot](docs/images/screenshot.png)
 
 ## Available Scripts
 
